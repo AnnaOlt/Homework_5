@@ -1,3 +1,4 @@
+
 $("#date").text(moment().format("dddd, MMMM Do YYYY"));
 
 $(document).ready(function () {
@@ -35,3 +36,4 @@ function saveInput() {
   // Save values into local storage
   localStorage.setItem("values", JSON.stringify(values));
 }
+
