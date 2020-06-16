@@ -15,116 +15,130 @@
   </head>
   <body>
     <h1>Calendar</h1>
-    <div id="date">Today's Date:</div>
+    <h2 id="date">Today's Date:</h2>
+    <br /><br />
     <div class="container-fluid">
-      <div class="row"></div>
-      <div class="row">
-        <div class="col">
-          9AM
+      <form id="form" onsubmit="return">
+        <div class="row"></div>
+        <div class="row">
+          <div class="col">
+            9AM
+          </div>
+          <div class="col-5">
+            <input class="user-input" id="userInput-9am" type="text" value="" />
+          </div>
+          <div class="col">
+            <button class="user-text" id="btn9am" type="submit">save</button>
+          </div>
         </div>
-        <div class="col-5">
-          <input type="text">
+        <div class="row">
+          <div class="col">
+            10AM
+          </div>
+          <div class="col-5">
+            <input
+              class="user-input"
+              id="userInput-10am"
+              type="text"
+              value=""
+            />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-        <div class="col">
-          <button type="submit">save</button>
+        <div class="row">
+          <div class="col">
+            11AM
+          </div>
+          <div class="col-5">
+            <input
+              class="user-input"
+              id="userInput-11am"
+              type="text"
+              value=""
+            />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          10AM
+        <div class="row">
+          <div class="col">
+            12PM
+          </div>
+          <div class="col-5">
+            <input
+              class="user-input"
+              id="userInput-12pm"
+              type="text"
+              value=""
+            />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-        <div class="col-5">
-          <input type="text">
+        <div class="row">
+          <div class="col">
+            1PM
+          </div>
+          <div class="col-5">
+            <input class="user-input" id="userInput-1pm" type="text" value="" />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-        <div class="col">
-          <button type="submit">save</button>
+        <div class="row">
+          <div class="col">
+            2PM
+          </div>
+          <div class="col-5">
+            <input class="user-input" id="userInput-2pm" type="text" value="" />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          11AM
+        <div class="row">
+          <div class="col">
+            3PM
+          </div>
+          <div class="col-5">
+            <input class="user-input" id="userInput-3pm" type="text" value="" />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-        <div class="col-5">
-          <input type="text">
+        <div class="row">
+          <div class="col">
+            4PM
+          </div>
+          <div class="col-5">
+            <input class="user-input" id="userInput-4pm" type="text" value="" />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-        <div class="col">
-          <button type="submit">save</button>
+        <div class="row">
+          <div class="col">
+            5PM
+          </div>
+          <div class="col-5">
+            <input class="user-input" id="userInput-5pm" type="text" value="" />
+          </div>
+          <div class="col">
+            <button class="user-text" type="submit">save</button>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          12PM
-        </div>
-        <div class="col-5">
-          <input type="text">
-        </div>
-        <div class="col">
-          <button type="submit">save</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          1PM
-        </div>
-        <div class="col-5">
-          <input type="text">
-        </div>
-        <div class="col">
-          <button type="submit">save</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          2PM
-        </div>
-        <div class="col-5">
-          <input type="text">
-        </div>
-        <div class="col">
-          <button type="submit">save</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          3PM
-        </div>
-        <div class="col-5">
-          <input type="text">
-        </div>
-        <div class="col">
-          <button type="submit">save</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          4PM
-        </div>
-        <div class="col-5">
-          <input type="text">
-        </div>
-        <div class="col">
-          <button type="submit">save</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          5PM
-        </div>
-        <div class="col-5">
-          <input type="text">
-        </div>
-        <div class="col">
-          <button type="submit">save</button>
-        </div>
-      </div>
+      </form>
+    </div>
 
-      
-</div>
-    </div>
-    </div>
- 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="moment.js"></script>
-  <script src="script.js"></script>
-</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="moment.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
